@@ -58,14 +58,18 @@ const char * config_header =
 "\n"
 "# Default countdown timer duration (in minutes)\n"
 "# Must be between 1 and 999\n"
-"default-timer=30\n";
+"default-timer=30\n"
+"\n"
+"# Frames per second for UI redraw\n"
+"# Must be between 10 and 60\n"
+"fps=30\n";;
 
-int read_or_create_config() {
+int read_or_create_config(int *fps) {
   FILE * f = fopen(config_filepath, "r");
   int default_timer_val = 30;
+  *fps = 30;
 
   if (!f) {
-
     f = fopen(config_filepath, "w");
     if (f) {
       fputs(config_header, f);
@@ -80,7 +84,10 @@ int read_or_create_config() {
         if (val < 1) val = 1;
         if (val > 999) val = 999;
         default_timer_val = val;
-        break;
+      } else if (sscanf(line, "fps=%d", &val) == 1) {
+	if (val < 10) val = 10;
+	if (val > 60) val = 60;
+	*fps = val;
       }
     }
     fclose(f);
@@ -375,7 +382,8 @@ int main() {
 
   init_colors();
 
-  int setm = read_or_create_config();
+  int fps;
+  int setm = read_or_create_config(&fps);
 
   struct timeval last;
   gettimeofday( & last, NULL);
@@ -531,7 +539,7 @@ int main() {
 
     draw_footer(rows, cols);
     refresh();
-    usleep(16667);
+    usleep(1000000 / fps);
   }
 
   flock(lock_fd, LOCK_UN);

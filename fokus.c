@@ -531,7 +531,7 @@ int main() {
 
     draw_footer(rows, cols);
     refresh();
-    usleep(10000);
+    usleep(16667);
   }
 
   flock(lock_fd, LOCK_UN);

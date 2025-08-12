@@ -60,9 +60,9 @@ fokus
 ```
 ## Controls
 - `[space]` : Start/Reset stopwatch or timer
-- `[h]`/`[l]`: Switch pages
-- `[j]`/`[k]`: Adjust timer minutes or scroll logs
-- `[q]`     : Quit
+- `[h]`/`[l]` : Switch pages
+- `[j]`/`[k]` : Adjust timer minutes or scroll logs
+- `[q]` : Quit
 
 ## Configuration
 Default timer duration is set in `~/.config/fokus/fokus.conf` under the `default-timer` key.

@@ -32,7 +32,7 @@ sudo dnf install gcc ncurses-devel
 ```
 
 ## Installation
-#### Arch (AUR)
+#### Arch ([AUR](https://aur.archlinux.org/packages/fokus))
 ```bash
 paru -S fokus
 # or

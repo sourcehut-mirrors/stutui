@@ -146,7 +146,7 @@ void init_log_path() {
     }
 
     snprintf(log_filepath, sizeof(log_filepath), "%s/fokus.log", config_dir);
-    snprintf(lock_filepath, sizeof(lock_filepath), "/tmp/fokus.lock");
+    snprintf(lock_filepath, sizeof(lock_filepath), "/tmp/fokus-%d.lock", getuid());
     snprintf(config_filepath, sizeof(config_filepath), "%s/fokus.conf", config_dir);
 
     FILE * f = fopen(log_filepath, "a");

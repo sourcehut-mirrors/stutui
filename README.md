@@ -43,11 +43,11 @@ yay -S fokus
 ```bash
 git clone https://git.sr.ht/~fijarom/fokus
 ```
-2. Build the executable:
+1. Build the executable:
 ```bash
 gcc fokus.c -o fokus -lncurses
 ```
-3. (Optional) Install system-wide:
+1. (Optional) Install system-wide:
 ```bash
 sudo install -Dm755 fokus /usr/local/bin/fokus
 ```
@@ -68,7 +68,7 @@ fokus
 Configure fokus via the config file located at `~/.config/fokus/fokus.conf`
 
 - `default-timer`: Default countdown timer duration in minutes (1-999). *default: 30*
-- `fps`: Frames per second for UI redraw (10-60). *default: 10*
+- `fps`: Frames per second for UI redraw (10-60). *default: 30*
 
 ## LICENSE
 This project is licensed under the terms of the GPL-3.0 license. See the [COPYING](./COPYING) file for details.

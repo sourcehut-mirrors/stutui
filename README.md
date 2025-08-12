@@ -12,7 +12,9 @@ A minimalist terminal‐based focus timer and stopwatch with daily logging, buil
 
 ## Screenshots
 ![Stopwatch Page](assets/stopwatch.png)
+
 ![Timer Page](assets/timer.png)
+
 ![Logs Page](assets/logs.gif)
 
 ## Prerequisites

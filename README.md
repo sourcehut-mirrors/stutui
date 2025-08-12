@@ -40,14 +40,17 @@ yay -S fokus
 ```
 #### Manual (Other Distros)
 1. Clone the repository:
+
 ```bash
 git clone https://git.sr.ht/~fijarom/fokus
 ```
 2. Build the executable:
+
 ```bash
 gcc fokus.c -o fokus -lncurses
 ```
 3. (Optional) Install system-wide:
+
 ```bash
 sudo install -Dm755 fokus /usr/local/bin/fokus
 ```

@@ -66,7 +66,7 @@ fokus
 ### Configuration
 Configure fokus via the config file located at `~/.config/fokus/fokus.conf`
 
-- `default-timer`: Default countdown timer duration in minutes (1-999). *default: 30*
+- `default-timer`: Default countdown timer duration in minutes (1-999). *default: 25*
 - `fps`: Frames per second for UI redraw (10-60). *default: 30*
 
 ## LICENSE

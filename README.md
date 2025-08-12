@@ -5,7 +5,7 @@ A minimalist terminal‐based focus timer and stopwatch with daily logging, buil
 ## Features
 - Stopwatch to track elapsed time while focusing.
 - Countdown timer with adjustable duration.
-- Daily log of minutes focused saved in a local file (~/.config/fokus.log).
+- Daily log of minutes focused saved in a local file at `~/.config/fokus/fokus.log`.
 - Interactive terminal UI with pages for stopwatch, timer, and logs.
 - Vim-like control scheme.
 - Distraction free minimalism.

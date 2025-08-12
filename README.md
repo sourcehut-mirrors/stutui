@@ -20,7 +20,6 @@ A minimalist terminal‐based focus timer and stopwatch with daily logging, buil
 ## Prerequisites
 - "ncurses" development library
 - C compiler (e.g., gcc, clang)
-
 #### Debian / Ubuntu
 ```bash
 sudo apt update
@@ -40,17 +39,14 @@ yay -S fokus
 ```
 #### Manual (Other Distros)
 1. Clone the repository:
-
 ```bash
 git clone https://git.sr.ht/~fijarom/fokus
 ```
 2. Build the executable:
-
 ```bash
 gcc fokus.c -o fokus -lncurses
 ```
 3. (Optional) Install system-wide:
-
 ```bash
 sudo install -Dm755 fokus /usr/local/bin/fokus
 ```
@@ -62,14 +58,12 @@ Run the program:
 # or, if installed system-wide:
 fokus
 ```
-
-## Controls
+### Controls
 - `[space]` : Start/Reset stopwatch or timer
 - `[h]`/`[l]` : Switch pages
 - `[j]`/`[k]` : Adjust timer minutes or scroll logs
 - `[q]` : Quit
-
-## Configuration
+### Configuration
 Configure fokus via the config file located at `~/.config/fokus/fokus.conf`
 
 - `default-timer`: Default countdown timer duration in minutes (1-999). *default: 30*

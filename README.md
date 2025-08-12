@@ -43,14 +43,15 @@ yay -S fokus
 ```bash
 git clone https://git.sr.ht/~fijarom/fokus
 ```
-1. Build the executable:
+2. Build the executable:
 ```bash
 gcc fokus.c -o fokus -lncurses
 ```
-1. (Optional) Install system-wide:
+3. (Optional) Install system-wide:
 ```bash
 sudo install -Dm755 fokus /usr/local/bin/fokus
 ```
+
 ## Usage
 Run the program:
 ```bash
@@ -58,6 +59,7 @@ Run the program:
 # or, if installed system-wide:
 fokus
 ```
+
 ## Controls
 - `[space]` : Start/Reset stopwatch or timer
 - `[h]`/`[l]` : Switch pages

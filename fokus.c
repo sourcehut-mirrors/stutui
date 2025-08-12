@@ -58,7 +58,7 @@ const char * config_header =
 "\n"
 "# Default countdown timer duration (in minutes)\n"
 "# Must be between 1 and 999\n"
-"default-timer=30\n"
+"default-timer=25\n"
 "\n"
 "# Frames per second for UI redraw\n"
 "# Must be between 10 and 60\n"
@@ -66,7 +66,7 @@ const char * config_header =
 
 int read_or_create_config(int * fps) {
     FILE * f = fopen(config_filepath, "r+");
-    int default_timer_val = 30;
+    int default_timer_val = 25;
     * fps = 30;
     bool has_default_timer = false, has_fps = false;
 

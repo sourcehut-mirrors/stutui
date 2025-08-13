@@ -38,9 +38,10 @@ paru -S fokus
 yay -S fokus
 ```
 #### Manual (Other Distros)
-1. Clone the repository:
+1. Clone the repository and open it:
 ```bash
 git clone https://git.sr.ht/~fijarom/fokus
+cd fokus
 ```
 2. Build the executable:
 ```bash

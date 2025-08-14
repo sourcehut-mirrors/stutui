@@ -1,6 +1,6 @@
 # fokus
 
-A minimalist terminal‐based focus timer and stopwatch with daily logging, built in C with ncurses. 
+A minimalist terminal‐based focus timer and stopwatch with daily logging, built in C using ncurses. 
 
 ## Features
 - Stopwatch to track elapsed time while focusing.

@@ -1,5 +1,5 @@
 /*
- * stutui - A minimalist terminal‐based study timer and stopwatch with daily logging, built in C using ncurses.
+ * stutui - A minimalist terminal‐based study timer and stopwatch with daily logging, built in C.
  * Copyright (C) 2025  Arda Yılmaz
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

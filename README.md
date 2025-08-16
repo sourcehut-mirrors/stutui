@@ -1,7 +1,7 @@
 [Abondened. See: [fokus](https://sr.ht/~fijarom/fokus/) for maintained rewrite in Rust.]
 
 # stutui
-A minimalist terminal‐based study timer and stopwatch with daily logging, built in C using ncurses.
+A minimalist terminal‐based study timer and stopwatch with daily logging, built in C.
 
 ## Features
 - Stopwatch to track elapsed time while studying.

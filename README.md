@@ -1,4 +1,4 @@
-[Abondened. See: [fokus](https://sr.ht/~fijarom/fokus/) for maintained rewrite in Rust.]
+[Abandoned. See: [fokus](https://sr.ht/~fijarom/fokus/) for maintained rewrite in Rust.]
 
 # stutui
 A minimalist terminal‐based study timer and stopwatch with daily logging, built in C.

@@ -44,11 +44,11 @@ yay -S stutui
 git clone https://git.sr.ht/~fijarom/stutui
 cd stutui
 ```
-1. Build the executable:
+2. Build the executable:
 ```bash
 gcc stutui.c -o stutui -lncurses
 ```
-1. (Optional) Install system-wide:
+3. (Optional) Install system-wide:
 ```bash
 sudo install -Dm755 stutui /usr/local/bin/stutui
 ```

@@ -40,18 +40,18 @@ yay -S stutui
 ```
 #### Manual (Other Distros)
 1. Clone the repository and open it:
-```bash
-git clone https://git.sr.ht/~fijarom/stutui
-cd stutui
-```
+   ```bash
+   git clone https://git.sr.ht/~fijarom/stutui
+   cd stutui
+   ```
 2. Build the executable:
-```bash
-gcc stutui.c -o stutui -lncurses
-```
+   ```bash
+   gcc stutui.c -o stutui -lncurses
+   ```
 3. (Optional) Install system-wide:
-```bash
-sudo install -Dm755 stutui /usr/local/bin/stutui
-```
+   ```bash
+   sudo install -Dm755 stutui /usr/local/bin/stutui
+   ```
 
 ## Usage
 Run the program:

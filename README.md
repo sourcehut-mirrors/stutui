@@ -3,7 +3,7 @@
 # stutui
 A minimalist terminal‐based study timer and stopwatch with daily logging, built in C
 
-[![Version](https://img.shields.io/badge/version-1.2.2-3F4551?logo=SemVer&logoColor=white)](#) [![License](https://img.shields.io/badge/license-GPL--3.0-BD0000?logo=GNU&logoColor=white)](./COPYING) [![Language](https://img.shields.io/badge/language-Bash-4EAA25?logo=GNUBash&logoColor=white)](#) [![Donate](https://img.shields.io/badge/donate-Bitcoin-F7931A?logo=Bitcoin&logoColor=white)](bc1qcsak5jc9p4wks34aj3t52rauusrfd6fc6m5jkz)
+[![Version](https://img.shields.io/badge/version-1.2.2-3F4551?logo=SemVer&logoColor=white)]() [![License](https://img.shields.io/badge/license-GPL--3.0-BD0000?logo=GNU&logoColor=white)](./COPYING) [![Language](https://img.shields.io/badge/language-Bash-4EAA25?logo=GNUBash&logoColor=white)]() [![Donate](https://img.shields.io/badge/donate-Bitcoin-F7931A?logo=Bitcoin&logoColor=white)](bc1qcsak5jc9p4wks34aj3t52rauusrfd6fc6m5jkz)
 
 ## Features
 - Stopwatch to track elapsed time while studying.

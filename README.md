@@ -74,5 +74,5 @@ Configure stutui via the config file located at `~/.config/stutui/stutui.conf`
 - `fps`: Frames per second for UI redraw (10-60). *default: 30*
 
 ## LICENSE
-This project is licensed under the terms of the GPL-3.0 license. See the [COPYING](./COPYING) file for details.
+This project is licensed under the terms of the GPL-3.0-or-later license. See the [COPYING](./COPYING) file for details.
 
